@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "cpf_cnpj": "^0.2.0",
-    "cypress": "^2.0.0",
+    "cypress": "^2.1.0",
     "rosie": "^1.6.0"
   },
   "devDependencies": {
