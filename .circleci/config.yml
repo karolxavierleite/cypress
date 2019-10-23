@@ -25,7 +25,7 @@ jobs:
       - run:
           command: npm start
           background: true
-      - run: npm run e2e:record
+      - run: npm run cypress run
       - store_test_results:
           path: test-results
       - store_artifacts:
