@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "cypress run",
+    "test": "cypress run --spec 'cypress/integration/forgot_password_spec.js' --record --key d77e9f10-27f9-49a7-ba05-8819076d60b4",
     "test-ci": "cypress run --reporter mocha-multi-reporters --reporter-options configFile=cypress-reporter.json",
     "e2e:record": "cypress run --spec 'cypress/integration/form_authentication.js'"
   },
