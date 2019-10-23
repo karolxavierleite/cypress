@@ -21,10 +21,7 @@ jobs:
           paths:
             - ~/.npm
             - ~/.cache
-      # start server before starting tests
-      - run:
-          command: npm start
-          background: true
+
       - run: npm run test
       - store_test_results:
           path: test-results
