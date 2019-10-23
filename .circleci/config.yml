@@ -26,9 +26,3 @@ jobs:
           command: npm start
           background: true
       - run: npm run e2e:record
-
-workflows:
-  version: 2
-  build:
-    jobs:
-      - test
