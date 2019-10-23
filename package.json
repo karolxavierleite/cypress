@@ -2,7 +2,7 @@
   "scripts": {
     "test": "cypress run",
     "test-ci": "cypress run --reporter mocha-multi-reporters --reporter-options configFile=cypress-reporter.json",
-    "e2e:record": "cypress run --spec 'cypress/integration/form_authentication.js' --reporter mocha-multi-reporters --reporter-options configFile=cypress-reporter.json"
+    "e2e:record": "cypress run --spec 'cypress/integration/form_authentication.js'"
   },
   "private": true,
   "dependencies": {
