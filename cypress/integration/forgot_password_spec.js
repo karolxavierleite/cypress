@@ -4,7 +4,7 @@ describe('Esqueci minha senha', function() {
   })
 
   it('exibe mensagem de email enviado quando os dados sao preenchidos', function() {
-    cy.get('#email').type('karolxavierleite@gmail.com')
+    cy.get('#email').type('karolxavierleite0@gmail.com')
     cy.get('#form_submit').click()
 
     cy.get('#content').should('contain', "Your e-mail's been sent!")
