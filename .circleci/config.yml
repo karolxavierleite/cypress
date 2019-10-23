@@ -26,6 +26,12 @@ jobs:
           command: npm start
           background: true
       - run: npm run e2e:record
+      - store_test_results:
+          path: test-results
+      - store_artifacts:
+          path: cypress/videos
+      - store_artifacts:
+          path: cypress/screenshots
 
 workflows:
   version: 2
