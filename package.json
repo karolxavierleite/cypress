@@ -1,7 +1,8 @@
 {
   "scripts": {
     "test": "cypress run",
-    "test-ci": "cypress run --reporter mocha-multi-reporters --reporter-options configFile=cypress-reporter.json"
+    "test-ci": "cypress run --reporter mocha-multi-reporters --reporter-options configFile=cypress-reporter.json",
+    "e2e:record": "cypress run"
   },
   "private": true,
   "dependencies": {
